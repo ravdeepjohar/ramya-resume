@@ -1,0 +1,179 @@
+% LaTeX resume using res.cls
+\documentclass{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\setlength{\topmargin}{-0.6in}  % Start text higher on the page 
+\setlength{\textheight}{10.5in}  % increase textheight to fit more on a page
+
+%10.5
+
+\setlength{\headsep}{0.2in}     % space between header and text
+\setlength{\headheight}{12pt}   % make room for header
+\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
+\renewcommand{\headrulewidth}{1pt} % suppress line drawn by default by fancyhdr
+
+%\lhead{\hspace*{-\sectionwidth}Ravdeep Johar} % force lhead all the way left
+\rhead{Page \thepage}  % put page number at right
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+%\newsectionwidth{0pt}
+
+
+\lhead{Ramya Vemuganti}
+
+
+\begin{document} 
+
+\thispagestyle{empty} % this page does not have a header
+\name{\huge Ramya Vemuganti}
+\vspace{01.in}
+\address{168 N Water St \#107, \\ Rochester, NY 14604  }
+%\address{ Rochester\, NY 14623 }
+\address{ phone: (608) 695-4899 \\   email: ramya.vemuganti@gmail.com} 
+
+
+\begin{resume}
+%\section{\rule{\linewidth}{0.01cm}}
+
+
+
+
+\section{EDUCATION}
+
+
+%\hspace{0.2in}
+
+%\rule {1}{1}
+\vspace{0.1in} 
+ {\bf University of Wisconsin-Milwaukee, WI \hfill}  Graduated May 2014
+       \begin{itemize}
+\setlength{\itemsep}{0pt}
+	
+        \item[] Degree: Master of Science in Computer Science
+         \item[] GPA:  3.4/4.0
+
+\end {itemize}
+
+  {\bf Jawaharlal Nehru Technologocial University, India \hfill} Graduated May 2012
+       \begin{itemize}	
+\setlength{\itemsep}{0pt}
+        \item[] Degree: Bachelor of Engineering in  Computer Engineering
+        \item[] GPA:  8.3/10.0
+\end {itemize}
+
+
+\section{COMPUTER SKILLS} 
+\vspace{0.1in}
+\begin{tabular}{ll}
+{\bf Proficient in:} & Java, Python, C\# \\
+{\bf Familiar with:} & Ruby, HTML, PHP, JavaScript, SQL, Angular \\ 
+& PSQL,  XML, \LaTeX, Shell, Xcode \\
+{\bf Development Tools:} & Eclipse, Xamarin, Android SDK \\
+{\bf Operating Systems:} &  Unix/Linux, Mac, Windows\\
+
+
+\end{tabular}
+
+
+\section{EXPERIENCE} 
+\vspace{0.1in} 
+{\bf  Hewlett Packard, Madison, WI    \hfill } June 2014-August 2014
+\\\emph{ Software Engineer}\\
+Developed components of the Immunization Application for WI using Java J2EE
+Increased the maintainability and readability of code base by modernizing legacy PL/SQL modules by converting them into Java using Struts 2.0.
+
+\vspace{-0.1in}
+ {\bf  Bhiri, UW-Milwaukee, WI   \hfill } May 2013-May 2014
+\\\emph{ Research Assistant} 
+
+ \vspace{-0.1in}
+ {\bf  College of Health Sciences, UW-Milwaukee, WI   \hfill }October 2013-May 2013
+\\\emph{  Project Assistant }
+
+
+\vspace{-0.1in}
+ {\bf   Sankya  Systems, India \hfill }July 2011-May 2012 
+\\\emph{ Software Developer Intern} \\
+Worked with a developer team in testing, maintaining, developing and documenting  Java 
+code for a web based application. Used Agile methodology and participated in every step of the SLDC process.
+
+
+
+
+
+\vspace{-0.1in} 
+ 
+
+\section{PROJECTS}
+\vspace{0.1in} 
+{\bf Converting clinical phrases into SNOMED CT Expressions }
+\\ \emph{ Technologies used: Python 2.7, Stanford parser, NLTK , Java } \\
+Wrote  python scripts to auto    summarize clinical text by extracting a â€˜main conceptâ
+
+\vspace{-0.1in} 
+{\bf Natural Language 2D object manipulation  }
+\\ \emph{ Technologies used: Java, Stanford Parser } \\
+Developed a GUI based native desktop application to draw and manipulate 2D geometric primitives using natural language (english) text commands 
+
+\vspace{-0.1in}
+{\bf Rest API for Beer Ratings}
+\\ \emph{ Technologies used: Python, Flask, SQL}\\
+Built a Flask based Rest API that enables GET, POST, PUT and DELETE methods. The API is for rating various types of beers. Created views for all the resources. Used SQL functions to implement ratings and other features.
+
+\vspace{-0.1in}
+{\bf Restaurant Reservation System }
+\\ \emph{ Technologies used: Java, MySQL, JSP, Apache } \\
+Developed an app to enable guests and owner to reserve tables at a restaurant.
+Implemented a MySQL database and a connected it with a Java REST API written using Jersey. Created JSP pages and used the Apache Tomcat 7.0 server.
+
+\vspace{-0.1in}
+{\bf Biomedical 2D Image segmenter }
+\\ \emph{ Technologies used: Matlab } \\
+Used MATLAB to implement various segmentation algorithms like Chan Vese, K-means clustering and Gaussian mixed model based algorithms applicable for Biomedical 2D images.\\
+
+
+
+
+
+ Developed a Master Budget Database tool for projecting trend estimates, personnel allocation, chronicle past expenses etc. Used SQL Queries and functions for performing calculations and obtaining data.
+
+ 
+\end{resume}
+\end{document}
+
+
+
+\end{multicols}
+\end {itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
